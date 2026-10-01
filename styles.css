@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: cascadia mono;
+    font-family: cascadia mono, 'Courier New', Courier, monospace;
     background-color: #eee;
     color: #222;
 }
