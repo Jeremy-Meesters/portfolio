@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cascadia mono, 'Courier New', Courier, monospace;
+    background-color: #eee;
+    color: #222;
+}
+
+.header {
+    width: 100%;
+    height: 20vh;
+    background-color: #384030;
+    color: rgb(255 247 223);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.logo {
+    width: 15vw;
+    height: 15vh;
+}
+
+.header_button {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.page_changer {
+    width: 15vw;
+    height: 5vh;
+    background-color: rgb(86 94 78);
+    color: rgb(255 247 223);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.intro {
+    width: 15vw;
+    height: 5vh;
+    background-color: rgb(86 94 78);
+    color: rgb(255 247 223);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.me {
+    width: 15vw;
+    height: 5vh;
+    background-color: rgb(86 94 78);
+    color: rgb(255 247 223);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0px 0px 20px 20px;
+    text-decoration: none;
+}
+
+.design {
+    width: 15vw;
+    height: 5vh;
+    background-color: rgb(86 94 78);
+    color: rgb(255 247 223);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0px 0px 20px 20px;
+    text-decoration: none;
+}
+
+.develop {
+    width: 15vw;
+    height: 5vh;
+    background-color: rgb(66 74 58);
+    color: rgb(255 247 223);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0px 0px 20px 20px;
+    text-decoration: none;
+}
+
+.contact {
+    width: 15vw;
+    height: 5vh;
+    background-color: rgb(86 94 78);
+    color: rgb(255 247 223);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0px 0px 20px 20px;
+    text-decoration: none;
+}
+
+.logo {
+    height: 15vh;
+}
+
+.button {
+    background-color: rgb(255 247 223);
+    height: auto;
+    padding: 1%;
+    width: auto;
+    border-radius: 1em;
+}

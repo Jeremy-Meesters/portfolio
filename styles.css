@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-    width: 100vw;
+    width: 100%;
     height: 20vh;
     background-color: #384030;
     color: rgb(255 247 223);
@@ -26,7 +26,7 @@ body {
 }
 
 .header_button {
-    width: 100vw;
+    width: 100%;
     height: 5vh;
     display: flex;
     align-items: center;
