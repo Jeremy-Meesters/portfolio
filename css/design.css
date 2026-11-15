@@ -16,7 +16,7 @@ body {
     background-color: #384030;
     color: rgb(255 247 223);
     display: flex;
-    justify-content: left;
+    justify-content: space-around;
     align-items: center;
 }
 
