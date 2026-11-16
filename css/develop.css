@@ -29,7 +29,7 @@ body {
     width: 100%;
     height: 5vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
 }
 
@@ -46,18 +46,26 @@ body {
 
 .intro {
     width: 15vw;
-    height: 5vh;
+    height: 2vh;
     background-color: rgb(86 94 78);
     color: rgb(255 247 223);
     display: flex;
     align-items: center;
     justify-content: space-around;
     border-radius: 0px 0px 20px 20px;
+    text-decoration: none;
+    font-size: 0px;
+}
+
+.intro:hover {
+    height: 5vh;
+    font-size: 16px;
+    transition: 0.5s;
 }
 
 .me {
     width: 15vw;
-    height: 5vh;
+    height: 2vh;
     background-color: rgb(86 94 78);
     color: rgb(255 247 223);
     display: flex;
@@ -65,11 +73,18 @@ body {
     justify-content: space-around;
     border-radius: 0px 0px 20px 20px;
     text-decoration: none;
+    font-size: 0px;
+}
+
+.me:hover {
+    height: 5vh;
+    font-size: 16px;
+    transition: 0.5s;
 }
 
 .design {
     width: 15vw;
-    height: 5vh;
+    height: 2vh;
     background-color: rgb(86 94 78);
     color: rgb(255 247 223);
     display: flex;
@@ -77,6 +92,13 @@ body {
     justify-content: space-around;
     border-radius: 0px 0px 20px 20px;
     text-decoration: none;
+    font-size: 0px;
+}
+
+.design:hover {
+    height: 5vh;
+    font-size: 16px;
+    transition: 0.5s;
 }
 
 .develop {
@@ -93,7 +115,7 @@ body {
 
 .contact {
     width: 15vw;
-    height: 5vh;
+    height: 2vh;
     background-color: rgb(86 94 78);
     color: rgb(255 247 223);
     display: flex;
@@ -101,6 +123,13 @@ body {
     justify-content: space-around;
     border-radius: 0px 0px 20px 20px;
     text-decoration: none;
+    font-size: 0px;
+}
+
+.contact:hover {
+    height: 5vh;
+    font-size: 16px;
+    transition: 0.5s;
 }
 
 .logo {
