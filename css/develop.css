@@ -150,3 +150,20 @@ body {
     width: auto;
     border-radius: 1em;
 }
+
+.row-images {
+    margin: 5%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shrink_n_grow {
+    width: 20%;
+    object-fit: contain;
+}
+
+.shrink_n_grow:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
