@@ -157,6 +157,6 @@ body {
 }
 
 .shrink_n_grow:hover {
-    width: 50%;
+    transform: scale(1.5);
     transition: 1s;
 }
