@@ -161,9 +161,62 @@ body {
 .shrink_n_grow {
     width: 20%;
     object-fit: contain;
+    align-self: center;
+}
+
+.shrink_n_grow img {
+    width: 100%;
 }
 
 .shrink_n_grow:hover {
     transform: scale(1.5);
     transition: 1s;
+}
+
+.popup {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.8);
+    color: #eee;
+    display: none;
+    top: 0;
+    text-decoration: none;
+    padding: 5% 20%;
+}
+
+.popup p {
+    border: 3px, solid, #eee;
+    padding: 2%;
+    border-radius: 40px;
+}
+
+.popup_content_tall {
+    display: flex;
+    gap: 5%;
+}
+
+.popup_content_wide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+}
+
+.popup_content_wide img {
+    width: 40vw;
+}
+
+.popup_img {
+    width: 50%;
+}
+
+#steamdeck_site:target, #dark_mode_site:target, #xbox_controller_site:target, #lays_site:target, #super_widgets:target, #kerk_breda_art:target, #news_article:target, #drums_art:target, #label:target,#GetImage:target, #front_end_page:target, #main_text:target {
+    display: block;
+}
+
+.italic {
+    color: red;
+    font-style: oblique;
 }
